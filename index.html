@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover"
+    />
+    <title>LINE MINI App</title>
+    <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+  </head>
+  <body id="body">
+    <fieldset>
+      <legend>Environment:</legend>
+      <p id="os"><b>OS:</b></p>
+      <p id="appLanguage"><b>App language:</b></p>
+      <p id="sdkVersion"><b>SDK version:</b></p>
+      <p id="lineVersion"><b>LINE version:</b></p>
+      <p id="isInClient"><b>Is in client?:</b></p>
+      <p id="isLoggedIn"><b>Is logged in?:</b></p>
+      <p id="type"><b>Screen type:</b></p>
+      <p id="devinfo"><b>Dev Info:</b></p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Profile:</legend>
+      <img
+        id="pictureUrl"
+        src="https://vos.line-scdn.net/imgs/apis/ic_mini.png"
+      />
+      <p id="userId"><b>User ID:</b></p>
+      <p id="displayName"><b>Display name:</b></p>
+      <p id="statusMessage"><b>Status message:</b></p>
+      <p id="email"><b>Email:</b></p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Authentication:</legend>
+      <p id="accessToken"><b>Access token :</b></p>
+      <p id="idToken"><b>ID token:</b></p>
+      <button id="btnLogIn">Log In</button>
+      <button id="btnLogOut">Log Out</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>Message:</legend>
+      <button id="btnSend">Send Messages</button>
+      <button id="btnShare">Share Target Picker</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>Camera:</legend>
+      <p id="qrCode"><b>QR code:</b></p>
+      <button id="btnScanCode">Scan QR Code</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>Window:</legend>
+      <button id="btnOpenWindow">Open Window</button>
+      <button id="btnCloseWindow">Close Window</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>Shortcut:</legend>
+      <button id="btnShortcut">Add a Shortcut</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>Friendship:</legend>
+      <p id="friendship"></p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Service Messages:</legend>
+      <p id="serviceMessage"></p>
+      <button id="btnServiceMessage">Send a Service Message</button>
+    </fieldset>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+body {
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  display: none;
+  width: 100%;
+  padding: 12px 0;
+  margin: 8px auto;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+fieldset {
+  border: 2px dashed #ccc;
+  margin-bottom: 16px;
+  min-width: 0;
+}
+
+legend {
+  font-weight: bold;
+  color: #03a453;
+}
+
+p {
+  margin: 8px 4px;
+  border-bottom: 2px dashed #eee;
+}
+
+#pictureUrl {
+  margin: 0 auto;
+  width: 50%;
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  box-pack: center;
+  box-align: center;
+  -moz-border-radius: 320px;
+  -webkit-border-radius: 320px;
+  border-radius: 320px;
+}
+
+#accessToken, #idToken, #serviceMessage {
+  display: block;
+  overflow: auto;
+}
+
+@media only screen and (min-width:960px) {
+  #pictureUrl {
+    width: 25%;
+  }
+}
