@@ -260,7 +260,7 @@ async function getFriendship() {
   const friend = await liff.getFriendship();
   if (!friend.friendFlag) {
     // Bot ที่เราต้องการให้ ติดตาม/เป็นเพื่อน
-    const botId = '@qan4856i'; // Bot-Chat-AI
+    const botId = '@YOUR_BOT_ID';
     msg = `ยังไม่ได้เป็นเพื่อนกับ Chatbot</br><a href="https://line.me/R/ti/p/${botId}">กดติดตาม Chatbot ได้เลย</a>`;
   }
   friendship.innerHTML = msg;
